@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">  <!--DEFINE O IDIOMA-->
+<head>
+    <meta charset="UTF-8"> <!--CODIFICAÇÃO DE CARACTERES-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--AJUSTE DE IMAGEM TELA-->
+    <title>SISTEMA BANCÁRIO</title> <!--TITULO DA ABA-->
+     <!--Link para o arquivo CSS externo-->
+     <link rel="stylesheet" href="style.css">
+<!--Inclusao do script JS externo que vai controlar as operaçoes bancarias-->
+    <script src="operacaoBancaria.js"></script>
+</head>
+<body>
+    <!--CONTEINER PRINCIPAL PARA O CONTEUDO DA INTERFACE-->
+    <div class = "container" >
+        <!--TITULO PRINCIPAL DE APLICAÇÃO-->
+        <h1> SISTEMA BANCARIO</h1>
+        <h2> SISTEMA BANCARIO DO LUCAS</h2>
+
+        <!--Campo de entrada para o valor-->
+        <label form ="valor">Digite um valor</label> <!--Rotulo para o campo de valor-->
+        <input type="number" id="valor" placeholder="Ex:100.00"><br> <!--campo para inserir um valor-->
+
+         <!--Botões para interagir com a conta bancaria-->
+         <button class= "botao1" onclick="sacar()">Sacar</button>  <!--Botão para realizar o saque-->
+         <button class= "botao2" onclick="depositar()">Depositar</button>  <!--Botão para reazlizar o deposito-->
+
+          <!--Exibindo o saldo atual da conta-->
+          <div class="balance">Saldo: R$<span id="saldo">0.00</span>  <!--Exibição dinamica de saldo-->
+            </div>
+            </div>
+
+
+</body>
+</html>

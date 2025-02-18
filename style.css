@@ -1,0 +1,132 @@
+/*Estilo gerais para a pagina do sistema Bancario */
+
+body {
+    background-color:#c60c0c; /* Cor do fundo da pagina */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Definir a fonte da pagina */
+
+margin: 0; /*Remove a margem padrão */
+padding: 20px; /*Adiciona um espaço interno (padding) na pagina */
+
+
+}
+/* Estilos para o container pricipal*/
+.container{
+    background-color: rgb(244, 26, 26); /* Define a cor do fundo do container */
+    border-radius: 15px; 
+    /*cantos arredondados*/
+
+    padding: 10px;
+    /*adicionar um espaço interno (padding) ao redor do conteudo*/
+    max-width: 400px;
+    /*define a largura maxima do container*/
+    margin: auto;
+    box-shadow: 0 0 10px rgba(8, 0, 0, 0.9);
+    /* Adiciona uma sombra bem de leve para destacar o container*/
+}
+
+/*Estilo para o titulo*/
+
+h1 {
+
+    text-align: center; /*centralizar o texto*/
+    color:aliceblue
+}
+
+h2 {
+
+    text-align: center; /*centralizar o texto*/
+    color:aliceblue;
+   
+}
+
+
+/* Estilos para os inputs e botões */
+input {
+    width: 48%;
+    /*Faz o campo de entrada ocupar toda a largura disponivel*/
+
+    padding: 3px;
+    /*Espaço interno ao redor do texto no campo*/
+
+    margin: 5px 0;
+    /*Adiciona um espaço de 5pc acima e abaixo do campo */
+
+    border-radius: 5px;
+    /*Arredondar os cantos de campo botão*/
+
+    border: 4px double #020000;
+    /* Borda cinza claro*/
+    
+}
+
+.botao1 {
+    width: 60%;
+    /* faz o botao ocupar a largura disponivel */
+
+    padding: 2px;
+
+    /* espaco interno entre o texto e o redor do botão */
+
+    background-color: rgb(242, 243, 244);
+    
+    /* cor do fundo do botão */
+
+    color: #000000;
+    
+    /* cor das letras do botão */
+    border-radius: 5px;
+
+    /* arredonda os cantos das borda do botao */
+    cursor: grab;
+    
+    /* muda o cursor para indicar que o botao é clicavel */
+}
+
+/* efeito ao passar o mouse no botao */
+.botao2:hover{
+    background-color: rgb(189, 7, 7);
+    }
+    
+
+.botao2 {
+    width: 60%;
+    /* faz o botao ocupar a largura disponivel */
+
+    padding: 2px;
+
+    /* espaco interno entre o texto e o redor do botão */
+
+    background-color: rgb(242, 243, 244);
+    
+    /* cor do fundo do botão */
+
+    color: #000000;
+    
+    /* cor das letras do botão */
+    border-radius: 5px;
+
+    /* arredonda os cantos das borda do botao */
+    cursor: grab;
+    
+    /* muda o cursor para indicar que o botao é clicavel */
+
+}
+
+/* efeito ao passar o mouse no botao */
+.botao1:hover{
+background-color: rgb(190, 6, 6);
+}
+
+/*Estilo para a area que exibe o saldo*/
+
+.balance {
+    font-size: medium;
+    /* aumenta o tamanho da fonte */
+
+    text-align: center;
+    /* centraliza o texto */
+
+    margin-top: 15px;
+    /* adiciona um espaço superior */
+
+}
